@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [13/May/2023:22:38:20 +0800] "GET /spring_mvc_mm HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [13/May/2023:22:38:20 +0800] "GET /spring_mvc_mm/ HTTP/1.1" 200 976 http-bio-8080-exec-3 104
+0:0:0:0:0:0:0:1 - - [13/May/2023:22:38:20 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [13/May/2023:22:38:22 +0800] "GET /spring_mvc_mm/course/getAllCourse HTTP/1.1" 200 5036 http-bio-8080-exec-5 323
+0:0:0:0:0:0:0:1 - - [13/May/2023:22:38:22 +0800] "GET /spring_mvc_mm/course/spring_mvc_mm/static/js/jquery-1.8.2.min.js HTTP/1.1" 404 1079 http-bio-8080-exec-6 4
+0:0:0:0:0:0:0:1 - - [13/May/2023:22:38:22 +0800] "GET /spring_mvc_mm/b HTTP/1.1" 404 981 http-bio-8080-exec-7 2
+0:0:0:0:0:0:0:1 - - [13/May/2023:22:38:22 +0800] "GET /spring_mvc_mm/s HTTP/1.1" 404 981 http-bio-8080-exec-2 2
+0:0:0:0:0:0:0:1 - - [13/May/2023:22:38:22 +0800] "GET /spring_mvc_mm/c HTTP/1.1" 404 981 http-bio-8080-exec-8 2
+0:0:0:0:0:0:0:1 - - [13/May/2023:22:38:24 +0800] "GET /spring_mvc_mm/course/updatecourse1/1 HTTP/1.1" 200 1649 http-bio-8080-exec-10 31
+0:0:0:0:0:0:0:1 - - [13/May/2023:22:38:33 +0800] "GET /spring_mvc_mm/course/updatecourse1/1 HTTP/1.1" 200 1649 http-bio-8080-exec-10 6

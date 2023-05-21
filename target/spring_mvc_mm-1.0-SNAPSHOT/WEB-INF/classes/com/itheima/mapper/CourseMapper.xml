@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace要和mapper接口的全类名保持一致-->
+<mapper namespace="com.itheima.mapper.CourseMapper">
+    <resultMap id="usermapper" type="User">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="hours" column="hours"/>
+        <result property="sid" column="sid"/>
+    </resultMap>
+    <!--void insertCollege(User user);-->
+   <!-- <insert id="insertCollege" parameterType="Course" keyProperty="id" useGeneratedKeys="true">
+        insert into s_student values(null,#{name},#{hours},#{sid})
+    </insert>
+
+    <select id="findById" resultType="Course">
+        select * from s_student where id=#{id}
+    </select>
+    -->
+
+    <select id="getAllCourses" resultType="Course">
+        select * from s_student
+    </select>
+    <!--void updateCollege(int id,int sid);-->
+    <!--<update id="updateCollege" parameterType="Course">
+        update s_student set hours=#{arg1} where id=#{arg0}
+    </update>
+
+    <select id="computerFind" resultType="Course">
+        select * from s_student where sid in (select id from s_school where schoolname="计算机学院")
+    </select>
+    -->
+</mapper>

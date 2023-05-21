@@ -1,0 +1,8 @@
+com\itheima\demo\mapper\CourseMapper.class
+com\itheima\demo\utils\SqlSessionUtil.class
+com\itheima\demo\service\CourseService.class
+com\itheima\demo\service\impl\CourseServiceImpl.class
+com\itheima\demo\controller\CourseController.class
+com\itheima\demo\interceptor\LoginInterceptor.class
+com\itheima\demo\pojo\Course.class
+com\itheima\demo\pojo\User.class
